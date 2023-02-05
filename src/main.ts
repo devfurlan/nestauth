@@ -23,7 +23,7 @@ async function bootstrap() {
     allowedHeaders: ['*'],
   };
 
-  app.enableCors(cors);
+  app.enableCors();
 
   await app.listen(3000);
 }
